@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simpsons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imagenes/cerbeza.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="nav">
+            <img src="imagenes/logoo.svg" alt="logo" height="50px">
+          </a>
+          <audio controls autoplay>
+            <source src="audio/audio los Simpsons_mezcla.mp3" type="audio/mp3">
+          </audio>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personajes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#homero">Homero</a></li>
+                  <li><a class="dropdown-item" href="#marge">Marge</a></li>
+                  <li><a class="dropdown-item" href="#bart">Bart</a></li>
+                  <li><a class="dropdown-item" href="#lisa">Lisa</a></li>
+                  <li><a class="dropdown-item" href="#magie">Magie</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+      
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/familia.png" class="d-block w-100" alt="familias">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/bart.jfif" class="d-block w-100" alt="bart">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/familiaas.jfif" class="d-block w-100" alt="familia">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/lisaysa.jfif" class="d-block w-10" alt="lisaybart">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>  
+
+      <div class="container-fluid">
+        <div class="titulo">
+            <h1 style="font-size:8rem; font-family: simpon;" class="animate__animated animate__shakeY
+            ">Los Simpsons</h1>
+        </div>
+
+      <div class="row" id="homero">
+        <div class="homero col-xl-5 col-md-6 col-xs-12 d-flex flex-column justify-content-center p-5">
+            <img src="imagenes/homer.jfif" alt="homero" class="homeroo animate__animated animate__rubberBand">
+            <h4>Homer Jay Simpson es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</h4>
+
+        </div>
+        <div class="col-xl-7 col-md-6 col-xs-12 p-5">
+          <iframe width="90%" height="85%" src="https://www.youtube.com/embed/roU-XCC7VU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="gifh text-center">
+            <h1 style="font-family: simpon; font-size: 5rem;" class="color">Homero</h1>
+          <img src="imagenes/homero.gif" alt="gif homero" width="10%">
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <button><a class="dropdown-item" href="#homero">Homero</a></button>
+            <button><a class="dropdown-item" href="#marge">Marge</a></button>
+          </li>
+        </ul>
+      </nav>
+      <div class="row" id="marge">
+        <div class="homero col-xl-5 col-md-6 col-xs-12 d-flex flex-column justify-content-center p-5">
+            <img src="imagenes/margee3.jpg" alt="marge" class="margee animate__animated animate__pulse">
+            <h4>Marjorie Jacqueline Bouvier más conocida como Marge Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson.</h4>
+
+        </div>
+        <div class="col-xl-7 col-md-6 col-xs-12 p-5">
+          <iframe width="90%" height="85%" src="https://www.youtube.com/embed/NPX6Oc9rgbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="gifh">
+            <h1 style="font-family: simpon; font-size: 5rem;" class="color">Marge</h1>
+            <img src="imagenes/marge.gif" alt="gif marge" width="30%">
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <button><a class="dropdown-item" href="#marge">Marge</a></button>
+            <button><a class="dropdown-item" href="#bart">Bart</a></button>
+          </li>
+        </ul>
+      </nav>
+      <div class="row" id="bart">
+        <div class="homero homero col-xl-5 col-md-6 col-xs-12 d-flex flex-column justify-content-center p-5">
+            <img src="imagenes/bartt1.jfif" alt="bart" class="barto animate__animated animate__rubberBand">
+            <h4>Bart Simpson es un personaje ficticio de la serie de televisión Los Simpson. Es el prototipo del niño de clase media estadounidense: travieso y desobediente.</h4>
+
+        </div>
+        <div class="col-xl-7 col-md-6 col-xs-12 p-5">
+          <iframe width="90%" height="85%" src="https://www.youtube.com/embed/RUQv4JxRBgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="gifh">
+            <h1 style="font-family: simpon; font-size: 5rem;" class="color">Bart</h1>
+            <img src="imagenes/bart.gif" alt="gif marge" width="15%">
+          </div>
+          
+
+        </div>
+      </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <button><a class="dropdown-item" href="#bart">Bart</a></button>
+            <button><a class="dropdown-item" href="#lisa">Lisa</a></button>
+          </li>
+        </ul>
+      </nav>
+      <div class="row" id="lisa">
+        <div class="homero col-xl-5 col-md-6 col-xs-12 d-flex flex-column justify-content-center p-5">
+            <img src="imagenes/lisa1.jfif" alt="lisa" class="lisaa animate__animated animate__pulse">
+            <h4>Es la hija mediana de Homer y Marge Simpson y hermana de Bart y Maggie. Goza de notable protagonismo y complejidad en la serie.</h4>
+
+        </div>
+        <div class="col-xl-7 col-md-6 col-xs-12 p-5">
+          <iframe width="90%" height="85%" src="https://www.youtube.com/embed/JSnWqdFvCjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="gifh">
+            <h1 style="font-family: simpon; font-size: 5rem;" class="color">Lisa</h1>
+            <img src="imagenes/lisa.gif" alt="gif marge" width="15%">
+          </div>
+        </div>
+      </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <button><a class="dropdown-item" href="#lisa">Lisa</a></button>
+            <button><a class="dropdown-item" href="#magie">Magie</a></button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="row" id="magie">
+        <div class="homero col-xl-5 col-md-6 col-xs-12 d-flex flex-column justify-content-center p-5">
+            <img src="imagenes/Maggie.jfif" alt="magie" class="magiee animate__animated animate__rubberBand">
+            <h4>Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson.</h4>
+
+        </div>
+        <div class="col-xl-7 col-md-6 col-xs-12 p-5">
+          <iframe width="90%" height="85%" src="https://www.youtube.com/embed/R64JxyOqzBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="gifh">
+            <h1 style="font-family: simpon; font-size: 5rem;" class="color">Magie</h1>
+            <img src="imagenes/magiegif.gif" alt="gif marge" width="20%">
+          </div>
+
+        </div>
+      </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <button><a class="dropdown-item" href="#nav">Inicio</a></button>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        <img src="imagenes/twitter.png" alt="logos" width="5%">
+        <img src="imagenes/instagram_logo_icon_186929.png" alt="logo" width="5%">
+        <img src="imagenes/facebook_black_logo_icon_147136.png" alt="logo" width="5%">
+      </footer>
+
+
+
+
+      </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

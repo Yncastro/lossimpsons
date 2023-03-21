@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 112, 206);
+
+}
+
+@font-face {
+    font-family: simpon;
+    src: url(../tipografia/simpon.otf);
+}
+
+nav{
+    background-color: rgb(61, 112, 206);
+}
+
+.titulo{
+    color: yellow;
+    text-align: center;
+}
+
+.homeroo{
+    width: 100%;
+}
+.color{
+    color: rgb(123, 37, 51);
+    text-shadow: 2px 4px 8px white;
+    text-align: center;
+}
+
+.homero{
+    color: rgb(253, 253, 253);
+    font-family: simpon;
+    border: 20px rgb(200, 54, 103) double;
+    
+}
+
+.gifh{
+    display: inline-flex;
+    justify-content: right;
+}
+
+.navbar{
+    font-family: simpon;
+}
+footer{
+    position: relative;
+    color:white;
+    text-align:center;
+    left:0;
+    width:100%;
+}
